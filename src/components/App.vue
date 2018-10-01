@@ -1,8 +1,18 @@
 <template>
   <div>
+    <div class="top-header">Here will be header</div>
+    <div id="boardroom-count">
+      <h2 class="boardroom">BOARDROOM 1</h2>
+      <h2 class="boardroom">BOARDROOM 2</h2>
+      <h2 class="boardroom">BOARDROOM 3</h2>
+    </div>
     <div id="header">
       <div>
-        <h1>Vue.js Calendar</h1>
+        <img src="../assets/logo.png">
+        <h1>BOOKER</h1>
+      </div>
+      <div>
+        <button class="add-employee">Add Employee</button>
       </div>
       <div>
         <current-month></current-month>
@@ -18,15 +28,18 @@
       <div>Sun</div>
     </div>
     <div id="calendar">
-      <div class="calendar-week" v-for="week in weeks">
-          <calendar-day v-for="day in week" :day="day"></calendar-day>
+      <div class="calendar-week" v-for="(week, i) in weeks"  :key="i" :week="week">
+          <calendar-day v-for="(day, i) in week" :key="i" :day="day"></calendar-day>
       </div>
     </div>
+    <event-form></event-form>
+    <div class="top-header">Here will be footer</div>
   </div>
 </template>
 <script>
     import CalendarDay from './CalendarDay.vue';
     import CurrentMonth from './CurrentMonth.vue';
+    import EventForm from './EventForm.vue';
 
     export default {
         computed: {
@@ -84,6 +97,7 @@
         components: {
           CalendarDay,
           CurrentMonth,
+          EventForm,
         }
     }
 </script>

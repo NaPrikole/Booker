@@ -1,16 +1,8 @@
-# Ultimate Vue.js Developers Course
-
-Source code for the [Ultimate Vue.js Developers Course](http://bit.ly/2mPK8ny).
-
-### Project 3: Vue.js Calendar
-
-#### Demo
-
-See the completed project here: [http://vuejs-calendar.vuejsdevelopers.com/](http://vuejs-calendar.vuejsdevelopers.com/)
+### Project 1: Vue.js | Node.js - booker.
 
 #### Pre-installation
 
-- Ensure [Node.js  >=5.10](https://nodejs.org/en/download/), [NPM](https://docs.npmjs.com) and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) are installed on your system
+ are installed on your system
 
 #### Installation
 
@@ -20,21 +12,17 @@ See the completed project here: [http://vuejs-calendar.vuejsdevelopers.com/](htt
     2. Clone the forked repository on your local file system
     
         ```
-        cd /path/to/install/location
-        
-        git clone https://github.com/[your_username]/vuejs-calendar.git
-        ```  
    
 2. Change into directory
 
     ```
-    cd vuejs-calendar
+    cd your path
     ```
     
 3. Install dependencies
 
     ```
-    cd vuejs-calendar
+    cd your path
     npm install
     ```
 
@@ -57,4 +45,3 @@ Your site will be available at *localhost:[PORT]* where `PORT` is whatever value
 
 #### Lecture branches
 
-Note that branches in the repo named `lecture/xxx` correspond to course lectures.

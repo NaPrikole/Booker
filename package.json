@@ -1,9 +1,9 @@
 {
-  "name": "vue-calendar",
+  "name": "Booker",
   "version": "1.1.0",
-  "description": "Ultimate Vue.js Developers Course - Vue.js Calendar",
+  "description": "Booker",
   "main": "server.js",
-  "author": "Anthony Gore <anthony@vuejsdevelopers.com>",
+  "author": "Vladimir Ponomarenko",
   "repository": {
     "type": "git",
     "url": "https://github.com/vuejsdevelopers/vuejs-calendar"
